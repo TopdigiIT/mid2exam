@@ -4,31 +4,52 @@ logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-
-
+# Dependency directories
 node_modules/
-.env
+
+# Build output
 build/
+dist/
+
+# Runtime data
+*.cache
+*.env.local
+.env.*.local
+
+# Editor-specific files
+.vscode/
+.idea/
 .DS_Store
-node_modules/
-.env
-build/
+
+# OS-specific files
+Thumbs.db
+*.DS_Store
+
+# Testing
+coverage/
+jest-html-reporters-*.html
+
+# Miscellaneous
+*.lock
+*.swp
+*.swo
+
+# Temporary files
+.tmp/
+.temp/
+
+# Parcel-bundler
+.cache/
+
+# Next.js or other framework-specific files
+.next/
+
+# VS Code extension-specific
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/*.code-workspace
+
+# Prettier and ESLint
+*.log
