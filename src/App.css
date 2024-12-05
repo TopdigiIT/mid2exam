@@ -1,0 +1,116 @@
+/* src/App.css or your global CSS file */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(240, 6, 6); /* Sets the white background for the full area */
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  /* Removed flex-direction: column; */
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 10px;
+}
+
+
+/* src/App.css */
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+  width: 100vw;               /* Sets full viewport width */
+  padding: 20px 40px;         /* Adds horizontal padding for spacing */
+  box-sizing: border-box;     /* Ensures padding doesn’t add extra width */
+}
+
+.product-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-section-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* App.css */
+
+.newsletter-section {
+  width: 100vw;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.newsletter-section h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.newsletter-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.newsletter-input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.newsletter-button {
+  padding: 10px 20px;
+  background-color: #4e54c8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #3b43a2;
+}
+
+.newsletter-message {
+  margin-top: 15px;
+  color: green;
+  font-size: 16px;
+}
+
+body, html, #root, .App, .AboutPageWrapper {
+  background-color: white !important;
+}
+

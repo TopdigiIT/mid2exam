@@ -1,0 +1,19 @@
+/* ProductList.css */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between products */
+    justify-content: center; /* Center align the grid */
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 250px; /* Set a fixed width for each card */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
